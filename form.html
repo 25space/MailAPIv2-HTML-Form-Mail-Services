@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!-- ######################################
+# MAIL API v2                             #
+# Demo contact form                       #
+# use this form for demo and development  #
+# mdct-group.com/mail                     #
+########################################-->
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0" name="viewport">
+		<title>Some awesome mail form by mdct Group</title>
+	</head>
+	<body>
+		<form method="post" action="https://mail-out.mdct-group.com/ses/connectorv2.php?appid=20190626192707&secret=dersecret">
+			<input name="name" placeholder="Name" type="text" required/><br />
+			<input name="email" placeholder="eMail" type="text" required/><br />
+			<br>Possible additional fields:<br>
+			<input name="var1" placeholder="var1" type="text"/><br />
+			<input name="var2" placeholder="var2" type="text"/><br />
+			<input name="var3" placeholder="var3" type="text"/><br />
+			<input name="var4" placeholder="var4" type="text"/><br />
+			<input name="var5" placeholder="var5" type="text"/><br />
+			<input name="var6" placeholder="var6" type="text"/><br />
+			<input name="var7" placeholder="var7" type="text"/><br />
+			<input name="var8" placeholder="var8" type="text"/><br />
+			<input name="var9" placeholder="var9" type="text"/><br />
+			<input name="var10" placeholder="var10" type="text"/><br />
+			<br />
+			<textarea name="message" placeholder="Message" rows="10" cols="20"></textarea><br />
+			<input type="checkbox" name="dsgvo" value="dsgvo" required/>I agree the privacy terms.<a target="_blank" href="your_dsgvo_url"><b>More ></b></a><br></input>
+			<input class="form-submit button" type="submit" />
+		</form>
+		<br><hr>
+		Made with <a target="_blank" href="http://www.mdct.cloud">mdct Cloud</a> & <a target="_blank" href="http://25space.com">25space.com</a>
+	</body>
+</html>	
