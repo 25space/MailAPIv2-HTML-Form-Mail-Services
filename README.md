@@ -27,7 +27,7 @@ The following standard fields as well as 10 individually usable variable fields 
 
 Specify the recipient, the subject and the redirect link that the user receives after sending the message.
 
-
+Read also the Docs article: https://mdct-group.com/docs/how-to-use-mail-api-v2/
 
 
 ## Find out more about
