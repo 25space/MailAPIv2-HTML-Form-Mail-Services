@@ -1,5 +1,4 @@
 # MailAPI v2
-# !PREVIEW! AVAILABLE SOON!
 
 The mdct Group/25space.com Mail API provides an interface to send html POST data (like forms) securely via email.
 Insert the HTML form, with custom fields as necessary, into your web page or application.
