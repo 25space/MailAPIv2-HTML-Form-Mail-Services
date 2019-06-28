@@ -25,6 +25,7 @@ The following standard fields as well as 10 individually usable variable fields 
 - var10
 
 
+Specify the recipient, the subject and the redirect link that the user receives after sending the message.
 
 
 
