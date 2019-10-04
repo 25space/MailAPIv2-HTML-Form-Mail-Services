@@ -1,6 +1,9 @@
 # MailAPI v2
 
-The mdct Group/25space.com Mail API provides an interface to send html POST data (like forms) securely via email.
+The documentation of the MailAPI v2 by 25Space.com and the mdct Group.
+You will find further informations here: https://www.25space.com/developer/api/mailapiv2.php
+
+The Mail API provides an interface to send html POST data (like forms) securely via email.
 Insert the HTML form, with custom fields as necessary, into your web page or application.
 Do you know the problem, your messages from the contact form are not delivered safely, the order or the HTML POST eMail application eMails end up in spam? With MailAPI you can connect any application (HTML form POST) and your emails will be delivered safely.
 
@@ -28,10 +31,10 @@ The following standard fields as well as 10 individually usable variable fields 
 Specify the recipient, the subject and the redirect link that the user receives after sending the message.
 
 Read also the Docs article: https://mdct-group.com/docs/how-to-use-mail-api-v2/
-
+And the API: https://www.25space.com/developer/api/mailapiv2.php
 
 ## Find out more about
-The service is offered by the mdct Group and 25Space.com (coming soon)
+The service is offered by 25Space.com and the mdct Group
 www.25space.com/mailapi or also www.mdct-group.com/mail
 
 ___
