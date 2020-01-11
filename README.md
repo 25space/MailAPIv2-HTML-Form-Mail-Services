@@ -30,6 +30,19 @@ The following standard fields as well as 10 individually usable variable fields 
 
 Specify the recipient, the subject and the redirect link that the user receives after sending the message.
 
+# Connector
+You can switch between the following connectors, the second one provides a high anti-spam service.
+
+Default (includes default protection)
+https://mail-out.mdct-group.com/ses/connectorv2.php
+
+Protect (high anti-spam protection)
+https://mail-out.mdct-group.com/ses/connectorv2protect.php
+Please note: if you use this protection link, it is possible that false-positive events occour.
+
+
+
+
 Read also the Docs article: https://mdct-group.com/docs/how-to-use-mail-api-v2/
 And the API: https://www.25space.com/developer/api/mailapiv2.php
 
