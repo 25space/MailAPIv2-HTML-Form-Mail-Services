@@ -30,7 +30,7 @@ The following standard fields as well as 10 individually usable variable fields 
 
 Specify the recipient, the subject and the redirect link that the user receives after sending the message.
 
-# Connector
+## Connector
 You can switch between the following connectors, the second one provides a high anti-spam service.
 
 Default (includes default protection)
