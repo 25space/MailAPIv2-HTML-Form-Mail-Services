@@ -1,6 +1,6 @@
 # MailAPI v2
 
-The documentation of the MailAPI v2 by 25Space.com and the mdct Group.
+The documentation of the MailAPI v2 by 25Space.com.
 You will find further informations here: https://www.25space.com/developer/api/mailapiv2.php
 
 The Mail API provides an interface to send html POST data (like forms) securely via email.
@@ -32,24 +32,17 @@ Specify the recipient, the subject and the redirect link that the user receives 
 
 ## Connector
 You can switch between the following connectors, the second one provides a high anti-spam service.
-
-Default (includes default protection)
-https://mail-out.mdct-group.com/ses/connectorv2.php
-
-Protect (high anti-spam protection)
-https://mail-out.mdct-group.com/ses/connectorv2protect.php
-Please note: if you use this protection link, it is possible that false-positive events occour.
+https://mailout.25space.com/ses/connectorv2.php
 
 
+## Read the API Docs
+To get all informations, please read our API Docs: https://www.25space.com/developer/api/mailapiv2.php
 
-
-Read also the Docs article: https://mdct-group.com/docs/how-to-use-mail-api-v2/
-And the API: https://www.25space.com/developer/api/mailapiv2.php
 
 ## Find out more about
-The service is offered by 25Space.com and the mdct Group
-www.25space.com/mailapi or also www.mdct-group.com/mail
+The service is offered by 25Space.com
+www.25space.com/mailapi
 
 ___
-(c) 2019 Götz & Oberhauser IT GbR / mdct Group & 25Space.com
+(c) 2019-2020 Götz & Oberhauser IT GbR / 25Space.com
 The GNU GPL v3 license is valid for the HTML demo form.
