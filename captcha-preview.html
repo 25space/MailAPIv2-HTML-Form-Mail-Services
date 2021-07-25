@@ -1,0 +1,41 @@
+<!-- #################################################################################
+# MAIL API v2                             
+# Demo-captcha                            
+# PLESE SEE WEBSITE https://25space.com/developer/api/mailapiv2.php#captcha
+# 25space.com/mailapi                     
+####################################################################################-->
+
+<!--
+**Intro**
+To prevent a huge amount of spam email via the contact form (or similar app), we strongly recommended to install a captcha service to block bots. We allow to implement own captcha solutions or services in the form.
+reCAPTCHA is a free service from Google that protects your website from spam and abuse. reCAPTCHA uses an advanced risk analysis engine and adaptive challenges to keep automated software from engaging in abusive activities on your site.
+
+**Implementation**
+Below you will find a documentation, how to implement the reCAPTCHA (v2) service to your form. Please create a Google Account and login at the Admin Console https://www.google.com/recaptcha/admin
+- Create a new V2 CAPTCHA
+- Add your domain/website
+- Save the site and secret key
+- Add the script below in your website header
+- Implement the HTML code below to your HTML from or application
+- Don't forget to clearify the topic about privacy and GDPR
+-->
+
+
+<!-- header code -->
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+<script>
+window.onload = function() {
+    var $recaptcha = document.querySelector('#g-recaptcha-response');
+
+    if($recaptcha) {
+        $recaptcha.setAttribute("required", "required");
+    }
+};
+</script>
+
+
+<!-- The form part, please insert this between your "form" tags. Please enter also your site key, which you get on the Google Admin Center. -->
+<div class="g-recaptcha" data-sitekey="INSERTYOURSITEKEY"></div>
+
+
+
