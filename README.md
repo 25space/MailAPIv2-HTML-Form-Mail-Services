@@ -1,4 +1,5 @@
 # MailAPI v2
+Update from July 2th 2021
 
 The documentation of the MailAPI v2 by 25Space.com.
 You will find further informations here: https://www.25space.com/developer/api/mailapiv2.php
@@ -12,7 +13,10 @@ Book the service "MailAPI" under login.mdct.cloud, it will be available in a few
 Add the secret and app-id displayed there to the POST URL to identify your application.
 
 
-The following standard fields as well as 10 individually usable variable fields are available to you, which are queried:
+In the form files, you will find a simple one to start, and also an extended where you will find external CSS, dropdowns, selects and more.
+
+
+The following standard fields as well as 20 (new!) individually usable variable fields are available to you, which are queried:
 - name
 - email
 - message
@@ -26,6 +30,16 @@ The following standard fields as well as 10 individually usable variable fields 
 - var8
 - var9
 - var10
+- var11
+- var12
+- var13
+- var14
+- var15
+- var16
+- var17
+- var18
+- var19
+- var20
 
 
 Specify the recipient, the subject and the redirect link that the user receives after sending the message.
@@ -44,5 +58,5 @@ The service is offered by 25Space.com
 www.25space.com/mailapi
 
 ___
-(c) 2019-2020 Götz & Oberhauser IT GbR / 25Space.com
+(c) 2019-2021 Götz & Oberhauser IT GbR / 25Space.com
 The GNU GPL v3 license is valid for the HTML demo form.
